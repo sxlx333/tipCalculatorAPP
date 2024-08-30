@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #005490;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    background-color: white;
+    border-radius: 7px;
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.header {
+    background-color: #201e1e;
+    color:  #fff;
+    width:100%;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+.billContainer {
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px 0px;
+    border-bottom: 2px solid grey;
+    font-size: 1.3rem;
+}
+.billContainer input {
+    text-align: right;
+    padding: 5px;
+    width: 50%;
+}
+.rateServiceContainer {
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px 0px;
+    border-bottom: 2px solid grey;
+    font-size: 1.3rem;
+}
+.rateServiceContainer select {
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+}
+.buttonContainer {
+    width: 80%;
+    padding: 10px 0px;
+    border-bottom: 4px solid grey; 
+}
+.btn {
+    width: 100%;
+    padding: 1rem 5px;
+    border: none;
+    border-radius: 9px;
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #ccc;
+    color: purple;
+}
+.tipContainer {
+    width: 80%;
+    background-color: rgb(202, 165, 250);
+    padding: 10px 0px 10px 10px;
+    font-size: 1.3rem;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.totalContainer {
+    width: 80%;
+    background-color: rgb(202, 165, 250);
+    padding: 10px 0px 10px 10px;
+    font-size: 1.3rem;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Tip Calculator</h1>
+        </div>
+        <div class="billContainer flex">
+            <p>Bill</p>
+            <input class="inputBill" type="text" placeholder="15">
+        </div>
+        <div class="rateServiceContainer flex">
+            <p>Rate service</p>
+            <select name="rates" id="rates">
+                <option value="5">5% - Fair</option>
+                <option value="10">10% - Good</option>
+                <option value="15">15% - Rip off</option>
+            </select>
+        </div>
+        <div class="buttonContainer flex">        
+            <button class="btn" id="submit">Calculate</button>
+        </div>
+        <div class="tipContainer flex">
+            <p>Tip: </p>
+            <p class="tipResult">$ 0.8</p>
+        </div>
+        <div class="totalContainer flex">
+            <p>Total </p>
+            <p class="totalResult">$ 15.8</p>
+        </div>
+    </div>
+
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
